@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Exo', sans-serif;
+    color: aliceblue;
+    background-color: #050959;
+}
+
+body::-webkit-scrollbar {
+    background-color: #0d14907b;
+    width: 10px;
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(61, 140, 244);
+    width: 10px;
+    border-radius: 20px;
+}
+
+.header-arriba {
+    padding: 1%;
+    background-color: rgba(13, 44, 97, 0.761);
+    margin-left: 6px;
+    margin-right: 6px;
+    border: solid aliceblue;
+}
+
+.header-bajo {
+    height: 40px;
+    background-color: rgba(113, 125, 145, 0.761);
+    display: flex;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    border: solid aliceblue;
+}
+
+.header-bajo ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bajo h2 {
+    color: rgba(13, 44, 97, 0.937);
+}
+
+hr {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a :hover {
+    color: aqua;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+}
+
+.logo {
+    width: 60px;
+    position: absolute;
+    margin: 10px;
+}
+
+#divbody {
+    background-color: rgba(22, 66, 141, 0.761);
+    height: 600px;
+    font-size: large;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: aliceblue;
+    padding-top: 3%;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px; 
+    margin-left: 6px;
+    margin-right: 6px;
+    overflow-y: scroll;
+    align-items: center;
+    border: solid aliceblue;
+}
+
+.barrasf {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: solid aliceblue;
+    margin-left: 6px;
+    margin-right: 6px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#divbody::-webkit-scrollbar {
+display: none;
+}
+
+.juegos {
+    overflow-y: scroll;
+}
+
+.juegos::-webkit-scrollbar {
+    background-color: #0f1138;
+    width: 10px;
+    border-radius: 20px;
+}
+
+.juegos::-webkit-scrollbar-thumb {
+    background-color: rgb(61, 140, 244);
+    width: 10px;
+    border-radius: 20px;
+}
+
+.searchdiv {
+    justify-content: center;
+    display: flex;
+    background-color: rgba(2, 6, 32, 0.651);
+    margin-left: 6px;
+    margin-right: 6px;
+    border-radius: 20px;
+    height: 90px;
+    align-items: center;
+}
+
+.search {
+    background-color: rgba(113, 125, 145, 0.761);
+    width: 30%;
+    padding: 1%;
+    margin: 1%;
+    font-size: x-large;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    height: 25px;
+    border: solid aliceblue;
+}
+
+.barra-search {
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.article {
+    height: 250px;
+}
+
+.article img {
+    height: 250px;
+    border: solid aliceblue;
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.area{
+    background: #050959;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    border: solid aliceblue;
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 25%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(11){
+    left: 83%;
+    width: 50px;
+    height: 50px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+.circles li:nth-child(12){
+    left: 53%;
+    width: 34px;
+    height: 34px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(13){
+    left: 4%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 14s;
+}
+
+.circles li:nth-child(14){
+    left: 89%;
+    width: 250px;
+    height: 250px;
+    animation-delay: 0s;
+    animation-duration: 30s;
+}
+
+.circles li:nth-child(15){
+    left: 68%;
+    width: 220px;
+    height: 220px;
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+.circles li:nth-child(16){
+    left: 30%;
+    width: 45px;
+    height: 45px;
+    animation-delay: 0s;
+    animation-duration: 20s;
+}
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
